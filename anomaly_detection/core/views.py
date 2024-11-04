@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.core.files.storage import FileSystemStorage
 
 # Load your pre-trained model
-model = tf.keras.models.load_model('core/models/tb_anomaly_detector_model.keras')
+model = tf.keras.models.load_model('core/models/tb_anomaly_detector_model2.keras')
 
 def load_and_preprocess_image(uploaded_file):
     # Read the image
